@@ -18,15 +18,15 @@ from DaisyXMusic.config import ASSISTANT_NAME, PROJECT_NAME
 
 
 class Messages:
-    START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
+    START_MSG = "**Hello ❤️‍🔥 [{}](tg://user?id={})!**\n\n🤖 I am Phoenix an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info.To report ang bugs/errors join @international_english_chattings and report to group admins"
     HELP_MSG = [
         ".",
         f"""
-**Hey 👋 Welcome back to {PROJECT_NAME}
+**Hey ❤️‍🔥 Welcome back to Phoenix Music
 
-⚪️ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
+⚪️ Phoenix Music can play music in your group's voice chat as well as channel voice chats
 
-⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
+⚪️ Assistant name >> @Phoenix_music_assist\n\nClick next for instructions**
 """,
         f"""
 **Setting up**
@@ -34,7 +34,7 @@ class Messages:
 1) Make bot admin (Group and in channel if use cplay)
 2) Start a voice chat
 3) Try /play [song name] for the first time by an admin
-*) If userbot joined enjoy music, If not add @{ASSISTANT_NAME} to your group and retry
+*) If userbot joined enjoy music, If not add @Phoenix_music_assist to your group and retry
 
 **For Channel Music Play**
 1) Make me admin of your channel 
@@ -92,7 +92,7 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 1) Get your channel ID.
 2) Create a group with tittle: Channel Music: your_channel_id
 3) Add bot as Channel admin with full perms
-4) Add @{ASSISTANT_NAME} to the channel as an admin.
+4) Add @Phoenix_music_assist to the channel as an admin.
 5) Simply send commands in your group. (remember to use /ytplay instead /play)
 """,
         f"""
@@ -100,17 +100,17 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 
 - /musicplayer [on/off]: Enable/Disable Music player
 - /admincache: Updates admin info of your group. Try if bot isn't recognize admin
-- /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
+- /userbotjoin: Invite @Phoenix_music_assist Userbot to your chat
 """,
         f"""
-**=>> Song Download 🎸**
+**=>> Song Download **
 
 - /video [song mame]: Download video song from youtube
 - /song [song name]: Download audio song from youtube
 - /saavn [song name]: Download song from saavn
 - /deezer [song name]: Download song from deezer
 
-**=>> Search Tools 📄**
+**=>> Search Tools **
 
 - /search [song name]: Search youtube for songs
 - /lyrics [song name]: Get song lyrics
