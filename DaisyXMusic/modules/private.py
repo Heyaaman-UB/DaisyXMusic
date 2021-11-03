@@ -44,6 +44,8 @@ def _start(client, message):
             ],
             [
                InlineKeyboardButton("➕ Add me to your Group ", url="https://t.me/Phoenix_Music_robot?startgroup=true")
+               InlineKeyboardButton(
+                   text="Help commands", url="http://t.me/Phoenix_Music_robot?start=help"
            ]]
         ),
         reply_to_message_id=message.message_id,
